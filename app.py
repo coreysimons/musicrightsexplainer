@@ -1,5 +1,15 @@
 #!/usr/bin/env python3
 import streamlit as st
+
+
+st.set_page_config(
+    page_title="Music Rights Explainer",  # Title displayed on the browser tab
+    page_icon="🎵",  # Favicon displayed on the browser tab
+    layout="centered",  # Layout of the app
+    initial_sidebar_state="auto"  # Initial state of the sidebar
+)
+
+
 import json
 import networkx as nx
 import matplotlib.pyplot as plt
