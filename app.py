@@ -240,24 +240,24 @@ def display_rights_details(data_list):
 # 5) Streamlit UI with Dropdowns, Flowchart, and Rights Details
 # -----------------------------------
 
-st.sidebar.header("Select a Chart")
-category = st.sidebar.selectbox("Select Category", list(ROYALTY_DATA.keys()), format_func=friendly_text)
-subcategory = st.sidebar.selectbox("Select Subcategory", list(ROYALTY_DATA[category].keys()), format_func=friendly_text)
+st.sidebar.header("Select usage type")
+category = st.sidebar.selectbox("Category", list(ROYALTY_DATA.keys()), format_func=friendly_text)
+subcategory = st.sidebar.selectbox("Source", list(ROYALTY_DATA[category].keys()), format_func=friendly_text)
 
 if category.lower() == "ugc":
     # For UGC, the structure is:
     # ROYALTY_DATA["ugc"][subcategory][platform][region][role]
     platform_options = [key for key, value in ROYALTY_DATA[category][subcategory].items() if isinstance(value, dict)]
-    platform = st.sidebar.selectbox("Select Platform", platform_options, format_func=friendly_text)
+    platform = st.sidebar.selectbox("Platform", platform_options, format_func=friendly_text)
     region_options = [key for key, value in ROYALTY_DATA[category][subcategory][platform].items() if isinstance(value, dict)]
-    region = st.sidebar.selectbox("Select Region", region_options, format_func=friendly_text)
+    region = st.sidebar.selectbox("Region", region_options, format_func=friendly_text)
     # Use radio buttons here (instead of selectbox) to match the other options.
-    role = st.sidebar.radio("Select Role", options=list(ROYALTY_DATA[category][subcategory][platform][region].keys()), format_func=friendly_text)
+    role = st.sidebar.radio("Role", options=list(ROYALTY_DATA[category][subcategory][platform][region].keys()), format_func=friendly_text)
 else:
     region_options = [key for key, value in ROYALTY_DATA[category][subcategory].items() if isinstance(value, dict)]
-    region = st.sidebar.selectbox("Select Region", region_options, format_func=friendly_text)
+    region = st.sidebar.selectbox("Region", region_options, format_func=friendly_text)
     role = st.sidebar.radio(
-        "Select Role",
+        "Role",
         options=["artist_label", "writer_publisher"],
         format_func=friendly_text,
         index=0  # Default to "Artist/Label"
