@@ -1,0 +1,985 @@
+{
+  "traditional_digital": {
+    "interactive_dsp": {
+      "us_usage_explainer_artist_label": "In the United States, artists and labels collecting royalties from on-demand streaming rely on direct deals or distributor agreements with each DSP. Neighboring rights generally do not apply for interactive streams in the U.S., so the main revenue comes from per-stream payouts.",
+      "us_usage_explainer_writer_publisher": "In the United States, writers and publishers earn from interactive streaming through performance royalties paid by PROs (such as ASCAP and BMI) and mechanical royalties handled by The MLC. These royalties are allocated based on streaming usage reported by the platforms.",
+      "int_usage_explainer_artist_label": "Outside the United States, artists and labels receive interactive streaming royalties directly from DSPs or via distributors. In many countries they can also claim neighboring rights via local CMOs (e.g. PPL in UK, GVL in Germany) if the territory recognizes a right for on-demand streams. Payment terms and rates vary by territory, depending on local laws and licensing agreements.",
+      "int_usage_explainer_writer_publisher": "Internationally, writers and publishers for interactive streaming earn both performance and mechanical royalties through local collection societies. Distribution methods differ by region, but each PRO or MRO allocates payments from the DSPs’ license fees based on usage data.",
+      "US": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Labels",
+            "how_it_is_received": "Recording royalties don’t go through collection societies. The DSP pays the royalties owed to labels with direct deals or via distributors.",
+            "estimated_rate": "0.0032",
+            "how_it_is_calculated": "A per-stream micro rate negotiated with DSPs, often ranging 0.003–$0.005 per play in the US."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "❌ Neighboring rights are not collected for on-demand streaming in the US."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "US PROs",
+            "how_it_is_received": "Publisher/writer receives distributions from their PRO (quarterly or semi-annually).",
+            "estimated_rate": "0.0003",
+            "how_it_is_calculated": "Collected from the DSP’s blanket license, allocated to the PRO’s overall performance royalty pool, and distributed based on usage data."
+          },
+          "mechanical": {
+            "collected_by": "The MLC",
+            "how_it_is_received": "Publishers must register their works and recordings (ISRCs) with the MLC to collect mechanical royalties. Independent writers must register with a 'vanity' publisher name.",
+            "estimated_rate": "0.0006",
+            "how_it_is_calculated": "Interactive streaming mechanicals in the US are governed by a percentage-of-revenue formula set by the Copyright Royalty Board."
+          }
+        }
+      },
+      "international": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Labels",
+            "how_it_is_received": "Recording royalties don’t go through collection societies. The DSP pays the royalties owed to labels with direct deals or via distributors.",
+            "estimated_rate": "0.0032",
+            "how_it_is_calculated": "Specific rates and local rules can cause variations in how much is collected and how it is distributed."
+          },
+          "neighboring_rights": {
+            "collected_by": "Local CMOs",
+            "how_it_is_received": "Artist/label must register recordings with local societies or via a publishing administrator.",
+            "estimated_rate": "0.0005",
+            "how_it_is_calculated": "Derived from local performance/broadcast laws that may classify streaming as a neighboring right."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "Local PROs",
+            "how_it_is_received": "Publisher/writer collects directly from local PRO or via sub-publisher.",
+            "estimated_rate": "0.0003",
+            "how_it_is_calculated": "Collected from the DSP’s blanket license and distributed based on usage data."
+          },
+          "mechanical": {
+            "collected_by": "Local MROs",
+            "how_it_is_received": "Publisher/writer collects directly from local MRO or via sub-publisher.",
+            "estimated_rate": "0.0004",
+            "how_it_is_calculated": "Calculated under local mechanical licensing frameworks; typically per-stream or per-share."
+          }
+        }
+      }
+    },
+    "non_interactive_services": {
+      "us_usage_explainer_artist_label": "In the United States, non-interactive services (e.g., certain webcasters) pay artists and labels through SoundExchange if the service is covered by a statutory license. Traditional terrestrial radio does not pay a master performance royalty to labels or artists.",
+      "us_usage_explainer_writer_publisher": "U.S. songwriters and publishers receive performance royalties from non-interactive services via PRO blanket licenses. No mechanical royalties apply because non-interactive streams are not considered reproductions.",
+      "int_usage_explainer_artist_label": "Internationally, non-interactive services often pay royalties to artists and labels through local collective management organizations. The exact rates and distribution methods vary by territory.",
+      "int_usage_explainer_writer_publisher": "In markets outside the U.S., songwriters and publishers earn performance royalties from non-interactive platforms through local PROs. Mechanical royalties generally do not apply to purely non-interactive transmissions.",
+      "US": {
+        "artist_label": {
+          "recording_revenues": {
+            "fully_not_applicable": "❌ No separate master royalty for non-interactive in the US."
+          },
+          "neighboring_rights": {
+            "collected_by": "SoundExchange",
+            "how_it_is_received": "Artist/label registers tracks with SoundExchange and receives quarterly distributions.",
+            "estimated_rate": "0.002",
+            "how_it_is_calculated": "A per-play rate set by the Copyright Royalty Board; payouts are split among artists, labels, and performers."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "US PROs",
+            "how_it_is_received": "Publisher/writer gets paid by PRO (quarterly/semi-annually).",
+            "estimated_rate": "0.0003",
+            "how_it_is_calculated": "A portion of the blanket license fee is allocated based on usage data."
+          },
+          "mechanical": {
+            "fully_not_applicable": "❌ No mechanical component in US law for purely non-interactive transmissions."
+          }
+        }
+      },
+      "international": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Local aggregators",
+            "how_it_is_received": "Non-interactive services (e.g., digital radio) pay license fees, which are then passed to the label.",
+            "estimated_rate": "0.0015",
+            "how_it_is_calculated": "Rates are set by local regulations and allocated pro rata based on usage."
+          },
+          "neighboring_rights": {
+            "collected_by": "Local CMOs",
+            "how_it_is_received": "Artist/label receives from local societies, typically annual or semi-annually",
+            "estimated_rate": "0.0005",
+            "how_it_is_calculated": "A per-play or revenue-share approach is used."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "Local PROs",
+            "how_it_is_received": "Publisher/writer collects directly from local PRO or via sub-publisher.",
+            "estimated_rate": "0.0003",
+            "how_it_is_calculated": "Local PROs aggregate usage data and distribute performance royalties."
+          },
+          "mechanical": {
+            "collected_by": "Local MROs",
+            "how_it_is_received": "Publisher/writer collects directly from local MRO or via sub-publisher.",
+            "estimated_rate": "0.0004",
+            "how_it_is_calculated": "Territorial mechanical rates vary, often around 6–9¢ per track."
+          }
+        }
+      }
+    },
+    "digital_downloads": {
+      "us_usage_explainer_artist_label": "In the United States, download stores commonly split revenues around 70/30 in favor of the label or aggregator. The artist’s share depends on their contractual deal, and neighboring rights do not apply to permanent downloads in the U.S.",
+      "us_usage_explainer_writer_publisher": "For U.S. downloads, writers and publishers receive the statutory mechanical rate (9.1¢ per track under five minutes), typically collected by the Harry Fox Agency. Preview plays do not generate significant performance royalties.",
+      "int_usage_explainer_artist_label": "Internationally, digital downloads also follow a revenue split, though percentages and store fees may vary. Neighboring rights usually do not apply to permanent downloads in most territories.",
+      "int_usage_explainer_writer_publisher": "Outside the U.S., each download still generates mechanical royalties for writers and publishers through local MROs. The exact per-track rate differs by country, but the principle is similar to the U.S. system.",
+      "US": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Digital stores",
+            "how_it_is_received": "Stores keep about 30% commission; the remaining ~70% goes to the aggregator or label.",
+            "estimated_rate": "0.7",
+            "how_it_is_calculated": "A standard 70/30 split is common, then the artist share depends on the agreement."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "❌ Neighboring rights do not apply to permanent downloads in the US."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "fully_not_applicable": "❌ Performance royalties from previews are minimal."
+          },
+          "mechanical": {
+            "collected_by": "Harry Fox Agency",
+            "how_it_is_received": "Publisher/writer receives mechanical royalties based on units sold",
+            "estimated_rate": "0.091",
+            "how_it_is_calculated": "US statutory mechanical rate is 9.1¢ per composition (under 5 minutes) per copy sold."
+          }
+        }
+      },
+      "international": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Digital stores",
+            "how_it_is_received": "The store’s commission (15–30%) is deducted; the remainder is paid to the aggregator/label.",
+            "estimated_rate": "0.65",
+            "how_it_is_calculated": "Similar to the US model, though local factors affect the final payout."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "❌ Generally not recognized for permanent downloads in most territories."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "fully_not_applicable": "❌ Performance royalties from previews are negligible."
+          },
+          "mechanical": {
+            "collected_by": "Local MROs",
+            "how_it_is_received": "Publisher/writer receives per-download mechanical royalties from the local MRO or via a sub-publisher network.",
+            "estimated_rate": "0.08",
+            "how_it_is_calculated": "Territorial mechanical rates vary, often around 6–9¢ per track."
+          }
+        }
+      }
+    }
+  },
+
+
+
+  "ugc": {
+      "organic": {
+        "youtube": {
+          "us_usage_explainer_artist_label": "Organic UGC on YouTube (US): Artists/labels earn ad revenue through Content ID and claim tools on YouTube.",
+          "us_usage_explainer_writer_publisher": "Organic UGC on YouTube (US): Writers/publishers receive performance royalties from Content ID claims on YouTube.",
+          "int_usage_explainer_artist_label": "Organic UGC on YouTube (International): Artists/labels earn from global Content ID earnings on YouTube.",
+          "int_usage_explainer_writer_publisher": "Organic UGC on YouTube (International): Writers/publishers receive performance royalties from international Content ID claims.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "YouTube Content ID",
+                "how_it_is_received": "Revenue from ads on claimed content.",
+                "estimated_rate": "0.0003",
+                "how_it_is_calculated": "Based on watch time and ad rates."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "Neighboring rights not recognized for interactive UGC in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "PRO blanket license",
+                "how_it_is_received": "Royalties distributed from YouTube’s licensing pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "A fraction based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalty for user-uploaded interactive videos in the US."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "YouTube Content ID",
+                "how_it_is_received": "Global ad revenue, allocated by watch time.",
+                "estimated_rate": "0.00025",
+                "how_it_is_calculated": "Based on regional adjustments."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label must register recordings with local societies.",
+                "estimated_rate": "0.0001",
+                "how_it_is_calculated": "Some territories classify user videos as a performance."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Distributed based on international usage data.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Pro rata distribution."
+              },
+              "mechanical": {
+                "collected_by": "The MLC",
+                "fully_not_applicable": "❌ Allocated via local mechanical licensing if recognized."
+              }
+            }
+          }
+        },
+        "meta": {
+          "us_usage_explainer_artist_label": "Organic UGC on Meta (US): Artists/labels earn from Meta’s ad revenue share for user uploads.",
+          "us_usage_explainer_writer_publisher": "Organic UGC on Meta (US): Writers/publishers receive a portion of Meta’s licensing fees.",
+          "int_usage_explainer_artist_label": "Organic UGC on Meta (International): Artists/labels earn micropayments from Meta’s global ad revenue.",
+          "int_usage_explainer_writer_publisher": "Organic UGC on Meta (International): Writers/publishers receive royalties based on international usage.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Meta Rights Manager",
+                "how_it_is_received": "Revenue via Meta’s rights manager.",
+                "estimated_rate": "0.0003",
+                "how_it_is_calculated": "Based on claimed usage."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "No neighbor-right coverage in the US for short interactive social posts."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "PRO blanket license",
+                "how_it_is_received": "Royalties distributed from Meta’s licensing pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "A fraction allocated based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No US mechanical for short clip-based, interactive social media usage."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Meta Content Claim",
+                "how_it_is_received": "Micropayments from international revenue pools.",
+                "estimated_rate": "0.00025",
+                "how_it_is_calculated": "Distributed proportionally."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label must register recordings with local societies.",
+                "estimated_rate": "0.0001",
+                "how_it_is_calculated": "In some territories, UGC triggers neighboring rights."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Distributed from Meta’s international pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on usage data."
+              },
+              "mechanical": {
+                "collected_by": "Local MROs",
+                "fully_not_applicable": "❌ Under local mechanical licensing for short clips, allocated proportionally."
+              }
+            }
+          }
+        },
+        "tiktok": {
+          "us_usage_explainer_artist_label": "Organic UGC on TikTok (US): Artists/labels earn micropayments via TikTok’s licensing for user content.",
+          "us_usage_explainer_writer_publisher": "Organic UGC on TikTok (US): Writers/publishers receive a share from TikTok’s ad revenue on user content.",
+          "int_usage_explainer_artist_label": "Organic UGC on TikTok (International): Artists/labels earn from global streams on TikTok.",
+          "int_usage_explainer_writer_publisher": "Organic UGC on TikTok (International): Writers/publishers receive distributed royalties internationally.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "TikTok Official Recognition",
+                "how_it_is_received": "Micropayments from officially recognized user uploads.",
+                "estimated_rate": "0.0002",
+                "how_it_is_calculated": "Based on usage metrics."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "Not recognized for organic UGC on TikTok in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "PRO blanket license",
+                "how_it_is_received": "Royalties from TikTok’s licensing pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Allocated based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No partial streaming mechanical for organic UGC on TikTok in the US."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "TikTok Official Licensing",
+                "how_it_is_received": "Micropayments from international streams.",
+                "estimated_rate": "0.00015",
+                "how_it_is_calculated": "With local adjustments."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label must register or aggregator handles claims.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Local performance rules apply."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Distributed based on international usage data.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Pro rata allocation."
+              },
+              "mechanical": {
+                "collected_by": "The MLC",
+                "fully_not_applicable": "❌ Allocated via local mechanical licensing if recognized."
+              }
+            }
+          }
+        },
+        "snapchat": {
+          "us_usage_explainer_artist_label": "Organic UGC on Snapchat (US): Artists/labels earn from ad revenue share on user-uploaded content.",
+          "us_usage_explainer_writer_publisher": "Organic UGC on Snapchat (US): Writers/publishers receive performance royalties for user-uploaded content.",
+          "int_usage_explainer_artist_label": "Organic UGC on Snapchat (International): Artists/labels earn micropayments from global usage.",
+          "int_usage_explainer_writer_publisher": "Organic UGC on Snapchat (International): Writers/publishers receive distributed royalties based on usage.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Snap Content ID",
+                "how_it_is_received": "Revenue from claimed user uploads.",
+                "estimated_rate": "0.0002",
+                "how_it_is_calculated": "Based on ad revenue split."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "No neighboring rights for organic UGC on Snapchat in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "PRO blanket license",
+                "how_it_is_received": "Royalties from Snapchat’s licensing pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "A fraction allocated based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalty for organic UGC on Snapchat in the US."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Snap Content ID",
+                "how_it_is_received": "Global revenue share from claimed content.",
+                "estimated_rate": "0.00015",
+                "how_it_is_calculated": "With local adjustments."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label must register or aggregator handles claims.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Local performance rules apply."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Distributed based on international usage.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on regional factors."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalty for organic UGC on Snapchat internationally."
+              }
+            }
+          }
+        },
+        "twitch": {
+          "us_usage_explainer_artist_label": "Organic UGC on Twitch (US): Artists/labels earn micropayments through Twitch’s ad revenue share for user-uploaded content.",
+          "us_usage_explainer_writer_publisher": "Organic UGC on Twitch (US): Writers/publishers receive royalties from Twitch’s licensing arrangements for user content.",
+          "int_usage_explainer_artist_label": "Organic UGC on Twitch (International): Artists/labels earn from international streams on Twitch.",
+          "int_usage_explainer_writer_publisher": "Organic UGC on Twitch (International): Writers/publishers receive distributed royalties based on usage.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Twitch Content ID",
+                "how_it_is_received": "Micropayments from user-generated content claims.",
+                "estimated_rate": "0.0004",
+                "how_it_is_calculated": "Based on fixed rates."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "No neighboring rights for organic UGC on Twitch in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Official Library PRO",
+                "how_it_is_received": "Royalties distributed from Twitch’s licensing pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "A fraction allocated based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalty for organic UGC on Twitch in the US."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Twitch Content ID",
+                "how_it_is_received": "International micropayments based on usage.",
+                "estimated_rate": "0.00035",
+                "how_it_is_calculated": "Adjusted for local market factors."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Distributed based on international usage.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on regional adjustments."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Distributed from Twitch’s international licensing pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on regional adjustments."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalty for organic UGC on Twitch internationally."
+              }
+            }
+          }
+        }
+      },
+      "official_library": {
+        "youtube": {
+          "us_usage_explainer_artist_label": "Official Library UGC on YouTube (US): Artists/labels earn revenue from a dedicated Official Library program on YouTube.",
+          "us_usage_explainer_writer_publisher": "Official Library UGC on YouTube (US): Writers/publishers receive royalties from structured licensing deals on YouTube.",
+          "int_usage_explainer_artist_label": "Official Library UGC on YouTube (International): Artists/labels earn micropayments from international Official Library streams on YouTube.",
+          "int_usage_explainer_writer_publisher": "Official Library UGC on YouTube (International): Writers/publishers receive performance royalties based on international usage.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "YouTube Official Library",
+                "how_it_is_received": "Revenue from officially licensed content on YouTube.",
+                "estimated_rate": "0.00035",
+                "how_it_is_calculated": "Based on a structured fee schedule."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "Neighboring rights are not applicable for YouTube Official Library streams in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Official Library PRO",
+                "how_it_is_received": "Royalties distributed from YouTube’s Official Library program.",
+                "estimated_rate": "0.00006",
+                "how_it_is_calculated": "A fraction allocated based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "Mechanical royalties are not applicable in this Official Library model."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "YouTube Official Library",
+                "how_it_is_received": "Micropayments from international streams on YouTube.",
+                "estimated_rate": "0.0003",
+                "how_it_is_calculated": "Calculated with local adjustments."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label must register officially to receive any applicable neighboring rights.",
+                "estimated_rate": "0.0001",
+                "how_it_is_calculated": "Local rules determine applicability for Official Library streams."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Distributed based on international usage data.",
+                "estimated_rate": "0.00006",
+                "how_it_is_calculated": "Pro rata allocation."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalties are paid under the Official Library program."
+              }
+            }
+          }
+        },
+        "meta": {
+          "us_usage_explainer_artist_label": "Official Library UGC on Meta (US): Artists/labels receive revenue via Meta’s dedicated Official Library rights manager.",
+          "us_usage_explainer_writer_publisher": "Official Library UGC on Meta (US): Writers/publishers receive royalties from Meta’s Official Library arrangements.",
+          "int_usage_explainer_artist_label": "Official Library UGC on Meta (International): Artists/labels earn micropayments from Meta’s global Official Library streams.",
+          "int_usage_explainer_writer_publisher": "Official Library UGC on Meta (International): Writers/publishers receive their share from Meta’s international pool.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Meta Official Library",
+                "how_it_is_received": "Revenue via Meta’s rights manager.",
+                "estimated_rate": "0.00035",
+                "how_it_is_calculated": "Pre-negotiated rate for officially licensed content."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "Neighboring rights are not recognized for Official Library content on Meta in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Meta Official PRO",
+                "how_it_is_received": "Royalties from Meta’s Official Library pool.",
+                "estimated_rate": "0.00006",
+                "how_it_is_calculated": "Based on official usage metrics."
+              },
+              "mechanical": {
+                "fully_not_applicable": "Mechanical components are not part of the Official Library program."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Meta Official Library",
+                "how_it_is_received": "Micropayments from international Official Library streams on Meta.",
+                "estimated_rate": "0.0003",
+                "how_it_is_calculated": "Rates adjusted for regional markets."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label may receive neighboring rights if local regulations allow for Official Library streams.",
+                "estimated_rate": "0.0001",
+                "how_it_is_calculated": "Determined by local rights management rules."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Meta Official PRO",
+                "how_it_is_received": "Publisher/writer receives a share from Meta’s international Official Library revenue pool.",
+                "estimated_rate": "0.00006",
+                "how_it_is_calculated": "Based on global usage metrics and local PRO arrangements."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalties under the Official Library model."
+              }
+            }
+          }
+        },
+        "tiktok": {
+          "us_usage_explainer_artist_label": "Official Library UGC on TikTok (US): Artists/labels receive micropayments via TikTok’s Official Library licensing program.",
+          "us_usage_explainer_writer_publisher": "Official Library UGC on TikTok (US): Writers/publishers receive royalties from TikTok’s Official Library revenue pool.",
+          "int_usage_explainer_artist_label": "Official Library UGC on TikTok (International): Artists/labels earn from international official library streams on TikTok.",
+          "int_usage_explainer_writer_publisher": "Official Library UGC on TikTok (International): Writers/publishers receive distributed royalties based on usage.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "TikTok Official Library",
+                "how_it_is_received": "Revenue from officially licensed TikTok content.",
+                "estimated_rate": "0.00025",
+                "how_it_is_calculated": "Based on a fixed rate structure."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "Neighboring rights do not apply in the Official Library model on TikTok in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Official Library PRO",
+                "how_it_is_received": "Royalties from TikTok’s licensing pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Allocated per usage data."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalties under the Official Library program on TikTok."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "TikTok Official Library",
+                "how_it_is_received": "Micropayments from international official streams on TikTok.",
+                "estimated_rate": "0.0002",
+                "how_it_is_calculated": "Adjusted for local market factors."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label may receive neighboring rights subject to local regulations.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on local market rules."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Official Library PRO",
+                "how_it_is_received": "Publisher/writer receives from local PROs as part of the Official Library program.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on global usage and regional adjustments."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalties under this program."
+              }
+            }
+          }
+        },
+        "snapchat": {
+          "us_usage_explainer_artist_label": "Official Library UGC on Snapchat (US): Artists/labels earn via Snapchat’s Official Library licensing deals.",
+          "us_usage_explainer_writer_publisher": "Official Library UGC on Snapchat (US): Writers/publishers receive royalties from Snapchat’s Official Library program.",
+          "int_usage_explainer_artist_label": "Official Library UGC on Snapchat (International): Artists/labels earn from international official library streams on Snapchat.",
+          "int_usage_explainer_writer_publisher": "Official Library UGC on Snapchat (International): Writers/publishers receive their share from Snapchat’s international pool.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Snap Official Library",
+                "how_it_is_received": "Revenue based on officially licensed content.",
+                "estimated_rate": "0.00025",
+                "how_it_is_calculated": "Negotiated fee structure."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "Neighboring rights are not applicable for Official Library content on Snap in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Snap Official PRO",
+                "how_it_is_received": "Royalties distributed from Snapchat’s Official Library pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "A fraction allocated based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "Mechanical royalties are not applicable in this Official Library model on Snap."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Snap Official Library",
+                "how_it_is_received": "Micropayments from international streams on Snap.",
+                "estimated_rate": "0.0002",
+                "how_it_is_calculated": "Adjusted for local market conditions."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label must register or aggregator handles claims.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Local performance rules apply."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Local PROs",
+                "how_it_is_received": "Royalties allocated based on international usage data.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on regional factors."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalty for Official Library content on Snap internationally."
+              }
+            }
+          }
+        },
+        "twitch": {
+          "us_usage_explainer_artist_label": "Official Library UGC on Twitch (US): Artists/labels receive micropayments from Twitch’s Official Library licensing arrangements.",
+          "us_usage_explainer_writer_publisher": "Official Library UGC on Twitch (US): Writers/publishers receive royalties via Twitch’s Official Library program.",
+          "int_usage_explainer_artist_label": "Official Library UGC on Twitch (International): Artists/labels earn from international official library streams on Twitch.",
+          "int_usage_explainer_writer_publisher": "Official Library UGC on Twitch (International): Writers/publishers receive distributed royalties based on usage.",
+          "US": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Twitch Official Licensing",
+                "how_it_is_received": "Revenue from officially licensed content on Twitch.",
+                "estimated_rate": "0.0004",
+                "how_it_is_calculated": "Based on a fixed rate model."
+              },
+              "neighboring_rights": {
+                "fully_not_applicable": "Neighboring rights are not recognized for Official Library content on Twitch in the US."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Official Library PRO",
+                "how_it_is_received": "Royalties distributed from Twitch’s Official Library revenue pool.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "A fraction based on usage."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalties for Official Library content on Twitch."
+              }
+            }
+          },
+          "international": {
+            "artist_label": {
+              "recording_revenues": {
+                "collected_by": "Twitch Official Licensing",
+                "how_it_is_received": "Micropayments from international official library streams on Twitch.",
+                "estimated_rate": "0.00035",
+                "how_it_is_calculated": "Adjusted for regional market factors."
+              },
+              "neighboring_rights": {
+                "collected_by": "Local CMOs",
+                "how_it_is_received": "Artist/label may be eligible for neighboring rights based on local regulations.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Determined by local guidelines."
+              }
+            },
+            "writer_publisher": {
+              "performance": {
+                "collected_by": "Official Library PRO",
+                "how_it_is_received": "Royalties from the Official Library revenue pool allocated by local PROs.",
+                "estimated_rate": "0.00005",
+                "how_it_is_calculated": "Based on international usage and regional adjustments."
+              },
+              "mechanical": {
+                "fully_not_applicable": "No mechanical royalties are applicable under this Official Library scheme."
+              }
+            }
+          }
+        }
+      }
+    },
+
+
+
+
+  "non_digital": {
+    "broadcast_radio_tv": {
+      "us_usage_explainer_artist_label": "In the United States, terrestrial radio and broadcast TV do not pay a performance royalty to labels or artists on sound recordings. Only digital or satellite broadcasts generate SoundExchange royalties for master rights.",
+      "us_usage_explainer_writer_publisher": "U.S. songwriters and publishers earn performance royalties through PROs whenever their songs are played on radio or TV. Mechanical royalties do not apply to standard broadcast transmissions.",
+      "int_usage_explainer_artist_label": "Many countries outside the U.S. pay neighboring rights for terrestrial radio and TV airplay. Artists and labels must register with local CMOs to receive these broadcast-related royalties.",
+      "int_usage_explainer_writer_publisher": "Internationally, radio and TV stations pay licensing fees to local PROs, which distribute performance royalties to songwriters and publishers. Some territories also have a small broadcast mechanical component.",
+      "US": {
+        "artist_label": {
+          "recording_revenues": {
+            "fully_not_applicable": "❌  Recording revenues are not paid for terrestrial radio and TV broadcasts."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "❌  Neighboring rights are not paid for terrestrial radio and TV broadcasts."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "PROs",
+            "how_it_is_received": "Publisher/writer receives quarterly distributions from PRO",
+            "estimated_rate": "0.0",
+            "how_it_is_calculated": "Broadcast licenses with PRO; fees divided based on logs."
+          },
+          "mechanical": {
+            "fully_not_applicable": "No mechanical for broadcast airplay under US ephemeral license."
+          }
+        }
+      },
+      "international": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Local CMOs",
+            "how_it_is_received": "Artist/label must register with local neighbor-rights CMOs",
+            "estimated_rate": "0.002",
+            "how_it_is_calculated": "Terrestrial broadcasts trigger neighboring rights in most non-US countries."
+          },
+          "neighboring_rights": {
+            "collected_by": "Local CMOs",
+            "how_it_is_received": "Artist/label receives from local societies, typically annual or semi-annually",
+            "estimated_rate": "0.001",
+            "how_it_is_calculated": "A portion of broadcast fees is allocated based on usage."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "Local PROs",
+            "how_it_is_received": "Publisher/writer receives performance royalties from PRO",
+            "estimated_rate": "0.002",
+            "how_it_is_calculated": "Fees are allocated by local PRO using logs or sampling."
+          },
+          "mechanical": {
+            "collected_by": "Local MROs",
+            "how_it_is_received": "❌ Publisher/writer collects from local MRO if applicable",
+            "estimated_rate": "0.0005",
+            "how_it_is_calculated": "A small mechanical levy is distributed under local rules."
+          }
+        }
+      }
+    },
+    "restaurants_bars_venues": {
+      "us_usage_explainer_artist_label": "In the United States, artists and labels do not receive performance royalties when recorded music is played in restaurants, bars, or venues, as U.S. law does not grant a public‐performance right for the master in these contexts.",
+      "us_usage_explainer_writer_publisher": "U.S. songwriters and publishers do earn public-performance royalties through PRO blanket licenses that venues pay. These license fees are distributed according to usage and repertoire data.",
+      "int_usage_explainer_artist_label": "In many countries outside the U.S., public performances of recorded music can trigger neighboring rights. Artists and labels must register with local CMOs to claim any venue-related usage payments.",
+      "int_usage_explainer_writer_publisher": "Internationally, songwriters and publishers receive performance royalties for music played in commercial spaces. Local PROs charge these venues blanket fees and distribute royalties based on logs or surveys.",
+      "US": {
+        "artist_label": {
+          "recording_revenues": {
+            "fully_not_applicable": "No master performance royalties in US for background music in venues."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "No public-performance right for the master in bars/venues under US law."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "PRO blanket license",
+            "how_it_is_received": "Publisher/writer receives from PRO distributions",
+            "estimated_rate": "0.001",
+            "how_it_is_calculated": "Venues pay annual blanket fees, which are allocated among compositions."
+          },
+          "mechanical": {
+            "fully_not_applicable": "No mechanical license for playing music in US public spaces."
+          }
+        }
+      },
+      "international": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Local CMOs",
+            "how_it_is_received": "❌ In some countries, venue performance triggers neighboring rights",
+            "estimated_rate": "0.0005",
+            "how_it_is_calculated": "Local rules may trigger neighbor rights for venue performance."
+          },
+          "neighboring_rights": {
+            "collected_by": "Local CMOs",
+            "how_it_is_received": "Artist/label receives from local societies",
+            "estimated_rate": "0.0003",
+            "how_it_is_calculated": "A portion of blanket fees is allocated based on usage."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "Local PROs",
+            "how_it_is_received": "Publisher/writer receives from PRO or sub-publisher distributions",
+            "estimated_rate": "0.001",
+            "how_it_is_calculated": "Fees are allocated based on local PRO rules."
+          },
+          "mechanical": {
+            "fully_not_applicable": "No standard mechanical for in-venue play unless specified by local law."
+          }
+        }
+      }
+    },
+    "live_performances": {
+      "us_usage_explainer_artist_label": "In the United States, purely live, in-person performances do not generate sound recording royalties for artists or labels. Income typically comes from ticket sales, merchandise, and performance fees.",
+      "us_usage_explainer_writer_publisher": "U.S. songwriters can receive live performance royalties by submitting setlists to their PRO. The venue pays a blanket license fee, and those funds are allocated to the songs performed.",
+      "int_usage_explainer_artist_label": "Internationally, unrecorded concerts also do not generate direct master royalties. However, if the performance is broadcast or recorded, neighboring rights may apply in some territories.",
+      "int_usage_explainer_writer_publisher": "Outside the U.S., live performance royalties are also distributed by local PROs once the setlist is submitted. The exact payment schedule and rates differ by country, but the principle is similar.",
+      "US": {
+        "artist_label": {
+          "recording_revenues": {
+            "fully_not_applicable": "❌ Not applicable for purely in-person performances in most countries."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "❌ Not applicable for purely in-person performances in most countries."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "PROs",
+            "how_it_is_received": "Writer/publisher receives royalties from PRO after setlist claims",
+            "estimated_rate": "0.01",
+            "how_it_is_calculated": "Venues pay blanket fees; royalties are allocated per song played."
+          },
+          "mechanical": {
+            "fully_not_applicable": "❌ Not applicable for purely in-person performances in most countries."
+          }
+        }
+      },
+      "international": {
+        "artist_label": {
+          "recording_revenues": {
+            "fully_not_applicable": "❌ Not applicable for purely in-person performances in most countries."
+          },
+          "neighboring_rights": {
+            "collected_by": "Local CMOs",
+            "how_it_is_received": "Handled by local society if recorded or broadcast",
+            "estimated_rate": "0.0",
+            "how_it_is_calculated": "Triggered only if the live show is recorded or broadcast."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "collected_by": "Local PROs",
+            "how_it_is_received": "Writer/publisher receives payment after setlist submission",
+            "estimated_rate": "0.01",
+            "how_it_is_calculated": "Royalties are allocated per song performed based on setlist data."
+          },
+          "mechanical": {
+            "fully_not_applicable": "❌ Not applicable for purely in-person performances in most countries."
+          }
+        }
+      }
+    },
+    "physical_sales": {
+      "us_usage_explainer_artist_label": "In the United States, physical record sales (such as CDs or vinyl) pay artists through distribution deals. Neighboring rights do not cover the mere sale of physical products in the U.S.",
+      "us_usage_explainer_writer_publisher": "U.S. songwriters and publishers receive mechanical royalties for each physical unit manufactured, at the statutory rate of 9.1¢ per track under five minutes. These royalties are typically collected by HFA or through direct licenses.",
+      "int_usage_explainer_artist_label": "Internationally, physical distributors pay labels who then pay artists per their contracts. The sale of physical media generally does not trigger neighboring rights in most territories.",
+      "int_usage_explainer_writer_publisher": "Outside the U.S., mechanical royalties for physical products are collected by local MROs or direct license, often at a rate around 6–8¢ per track. Each territory sets its own manufacturing royalty framework.",
+      "US": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Physical distributor",
+            "how_it_is_received": "Artist/label receives net wholesale/retail revenue minus distribution and manufacturing costs",
+            "estimated_rate": "0.5",
+            "how_it_is_calculated": "Typically ~50% of net revenue after costs."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "Does not apply to physical sales in the US."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "fully_not_applicable": "No performance royalty for selling physical products in the US."
+          },
+          "mechanical": {
+            "collected_by": "Harry Fox Agency",
+            "how_it_is_received": "Publisher/writer receives mechanical royalties based on units sold",
+            "estimated_rate": "0.091",
+            "how_it_is_calculated": "US statutory mechanical rate is 9.1¢ per composition (under 5 minutes) per unit manufactured."
+          }
+        }
+      },
+      "international": {
+        "artist_label": {
+          "recording_revenues": {
+            "collected_by": "Physical distributor",
+            "how_it_is_received": "Artist/label receives net wholesale/retail revenue minus costs",
+            "estimated_rate": "0.4",
+            "how_it_is_calculated": "Typically ~40% net margin after manufacturing/retail cuts."
+          },
+          "neighboring_rights": {
+            "fully_not_applicable": "Physical sales do not trigger neighboring rights internationally."
+          }
+        },
+        "writer_publisher": {
+          "performance": {
+            "fully_not_applicable": "No performance royalty for the mere sale of physical products."
+          },
+          "mechanical": {
+            "collected_by": "Local MROs",
+            "how_it_is_received": "Publisher/writer receives mechanical royalties per unit sold",
+            "estimated_rate": "0.08",
+            "how_it_is_calculated": "Territorial mechanical rates vary, typically around 6–8¢ per unit."
+          }
+        }
+      }
+    }
+  }
+}
